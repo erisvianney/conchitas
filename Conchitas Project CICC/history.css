@@ -1,0 +1,235 @@
+
+body{
+    margin: 0px;
+    font-family: "Poppins", system-ui;
+    background-color: #FFFDF8;
+  }
+  
+  .poppins-regular {
+    font-family: "Poppins", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .poppins-bold {
+    font-family: "Poppins", system-ui;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .poppins-semibold-italic {
+    font-family: "Poppins", system-ui;
+    font-weight: 600;
+    font-style: italic;
+  }
+  
+  
+  /* Page Body */
+  body {
+    /* Position */
+    position: relative;
+  
+    /* Display Mode */
+    display: flex;
+    flex-direction: column;
+  }
+
+  #main-nav {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    min-width: 100vw;
+    height: 5rem;
+    background-color: #1F1F1F00;
+    z-index: 3; 
+    background-color: #fffef99d;
+  }
+  
+  #nav-menu {
+    display: flex;
+    justify-content: center;
+    gap: 20%;
+  }
+  
+  nav ul li {
+    font-size: 16px;
+    list-style: none;
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.2s ease-in-out 0.2s;
+    color: #424040;
+  }
+  
+  .nav-link:visited {
+    color: #424040;
+  }
+  
+  .nav-link:hover {
+    font-weight: 700;
+    letter-spacing: 1px;
+    cursor: pointer;
+  }
+  
+  .nav-link.current {
+    font-weight: 600;
+    color: #000000;
+  }
+
+  
+.Header{
+  
+  margin: auto;
+  background: #FCF0E8;
+  width: 100%;
+  padding-top: 10%;
+  padding-right: 160px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+  flex-direction: row;
+
+
+  display: inline-flex;
+flex-direction: column;
+
+
+
+}
+.Header h1 {
+font-weight: 600;
+font-size: 64px;
+flex-direction: column;
+padding: 0%;
+}
+.Header h2 {
+font-weight: 500;
+flex-direction: column;
+padding: 0%;
+color: #241300;
+}
+
+.welcome-box {
+padding-top: 50px;
+}
+
+.icon{
+position: relative;
+height: 0.8em;
+margin-right:10px;
+top: 0px;
+}
+
+.btn {
+background-color: #FFA4B6;
+font-family: "Poppins", system-ui;
+font-weight: 400;
+font-style: normal;
+font-size: 20px;
+text-decoration: none;
+color: black;
+
+display: inline-flex;
+padding: 16px;
+align-items: flex-end;
+gap: 10px;
+
+width: Hug (203px)px;
+height: Hug (67px)px;
+top: 455px;
+left: 286px;
+padding: 16px;
+gap: 10px;
+border-radius: 10px;
+border: 1px;
+}
+
+.button{
+background-color: #FFA4B6;
+font-family: "Poppins", system-ui;
+font-weight: 400;
+font-style: normal;
+font-size: 16px;
+
+display: inline-flex;
+padding: 8px 16px;
+align-items: flex-end;
+gap: 10px;
+
+width: Hug (203px)px;
+height: Hug (67px)px;
+top: 455px;
+left: 286px;
+padding: 16px;
+gap: 10px;
+border-radius: 10px;
+border: 1px;
+}
+
+.btn:hover {
+background-color: #FF8099;
+font-weight: 500;
+cursor: pointer;
+}
+
+.button:hover {
+background-color: #FF8099;
+font-weight: 500;
+cursor: pointer;
+}
+
+.introduction{
+margin-left: 10%;
+margin-right: 10%;
+}
+
+.introduction h4{
+display: flex;
+font-weight: 400;
+font-size: 12px;
+flex-direction: column;
+padding: 0%;
+}
+
+
+.boton{
+  display: inline-flex;
+  padding: 4px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 10px;
+background: #A9E2E2;
+text-decoration: none;
+color: black;
+
+  
+  display: inline-flex;
+  padding: 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  }
+  
+  .boton:hover {
+    border-radius: 10px;
+    background: #A4D7EB;
+  font-weight: 500;
+  cursor: pointer;
+  }
+
+  .france-to-mexico{
+    width: 887.862px;
+    height: 572.317px;
+    flex-shrink: 0;
+justify-content: center;
+align-items: center;
+margin: auto;
+
+border-radius: 30px;
+
+
+  }
